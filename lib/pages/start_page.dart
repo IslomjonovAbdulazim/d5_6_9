@@ -80,6 +80,7 @@ class StartPage extends StatelessWidget {
                                 width: 2,
                               ),
                               borderRadius: BorderRadius.circular(20),
+
                             ),
                             child: CupertinoButton(
                               padding: EdgeInsets.symmetric(vertical: 16),
