@@ -1,5 +1,7 @@
+import 'package:d5_6_9/pages/main_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({super.key});
@@ -56,10 +58,43 @@ class StartPage extends StatelessWidget {
                             padding: EdgeInsets.symmetric(vertical: 20),
                             borderRadius: BorderRadius.circular(20),
                             color: Color(0xff212226),
-                            onPressed: () {},
+                            onPressed: () {
+                              Get.off(MainPage());
+                            },
                             child: Text(
                               "Sign Up",
-                              style: TextStyle(),
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 20,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                color: Color(0xff212226),
+                                width: 2,
+                              ),
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: CupertinoButton(
+                              padding: EdgeInsets.symmetric(vertical: 16),
+                              borderRadius: BorderRadius.circular(20),
+                              onPressed: () {
+                                Get.to(MainPage());
+                              },
+                              child: Text(
+                                "Sign In",
+                                style: TextStyle(
+                                  color: Color(0xff212226),
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
                             ),
                           ),
                         ),
