@@ -115,8 +115,100 @@ class HomePage extends StatelessWidget {
                 ),
 
                 // [HW] Monthly Reports
+                SizedBox(height: 15),
+                Row(
+                  children: [
+                    Text(
+                      "Monthly Reports",
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: Color(0xff212226),
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 10),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        height: 83,
+                        decoration: BoxDecoration(
+                          color: Color(0xffF6F8FC),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "54256",
+                              style: TextStyle(
+                                fontSize: 24,
+                                color: Color(0xff212226),
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            Text(
+                              "Message Sent",
+                              style: TextStyle(
+                                color: Color(0xff949BA5),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Expanded(
+                      child: Container(
+                        height: 83,
+                        decoration: BoxDecoration(
+                          color: Color(0xffF6F8FC),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "49823",
+                              style: TextStyle(
+                                fontSize: 24,
+                                color: Color(0xff212226),
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            Text(
+                              "Message Receive",
+                              style: TextStyle(
+                                color: Color(0xff949BA5),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
 
                 // [HW] Link Services
+                SizedBox(height: 15),
+                Row(
+                  children: [
+                    Text(
+                      "Link Services",
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: Color(0xff212226),
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                  ],
+                ),
               ],
             ),
           ),
