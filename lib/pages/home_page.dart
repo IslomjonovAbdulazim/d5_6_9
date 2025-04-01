@@ -205,8 +205,172 @@ class HomePage extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(height: 10),
                 Row(
                   children: [
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(20),
+                        decoration: BoxDecoration(
+                          color: Color(0xffF5F8FC),
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                Container(
+                                  height: 56,
+                                  width: 56,
+                                  padding: EdgeInsets.all(12),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(15),
+                                  ),
+                                  child: Image.asset("assets/facebook.png"),
+                                ),
+                                Spacer(),
+                                Icon(
+                                  Icons.menu,
+                                  color: Color(0xff949BA5),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: 10),
+                            Text(
+                              "Facebook",
+                              style: TextStyle(
+                                color: Color(0xff212226),
+                                fontSize: 18,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            SizedBox(height: 5),
+                            Text(
+                              "Linked 4d ago",
+                              style: TextStyle(
+                                color: Color(0xff949BA5),
+                                fontSize: 13,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            SizedBox(height: 10),
+                            Row(
+                              children: [
+                                Image.asset(
+                                  "assets/chat.png",
+                                  height: 20,
+                                  width: 20,
+                                ),
+                                SizedBox(width: 3),
+                                Text(
+                                  "2541",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                                SizedBox(width: 12),
+                                Image.asset(
+                                  "assets/send.png",
+                                  height: 20,
+                                  width: 20,
+                                ),
+                                SizedBox(width: 3),
+                                Text(
+                                  "2541",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 15),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(20),
+                        decoration: BoxDecoration(
+                          color: Color(0xffF5F8FC),
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                Container(
+                                  height: 56,
+                                  width: 56,
+                                  padding: EdgeInsets.all(12),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(15),
+                                  ),
+                                  child: Image.asset("assets/twitter.png"),
+                                ),
+                                Spacer(),
+                                Icon(
+                                  Icons.menu,
+                                  color: Color(0xff949BA5),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: 10),
+                            Text(
+                              "Twitter",
+                              style: TextStyle(
+                                color: Color(0xff212226),
+                                fontSize: 18,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            SizedBox(height: 5),
+                            Text(
+                              "Linked 2d ago",
+                              style: TextStyle(
+                                color: Color(0xff949BA5),
+                                fontSize: 13,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            SizedBox(height: 10),
+                            Row(
+                              children: [
+                                Image.asset(
+                                  "assets/chat.png",
+                                  height: 20,
+                                  width: 20,
+                                ),
+                                SizedBox(width: 3),
+                                Text(
+                                  "2345",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                                SizedBox(width: 12),
+                                Image.asset(
+                                  "assets/send.png",
+                                  height: 20,
+                                  width: 20,
+                                ),
+                                SizedBox(width: 3),
+                                Text(
+                                  "1563",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ],
