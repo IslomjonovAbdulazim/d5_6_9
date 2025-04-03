@@ -33,6 +33,27 @@ class ContactsPage extends StatelessWidget {
                 ),
 
                 // Search
+                SizedBox(height: 20),
+                TextField(
+                  decoration: InputDecoration(
+                    filled: true,
+                    fillColor: Color(0xffF5F8FC),
+                    contentPadding: EdgeInsets.symmetric(vertical: 15),
+                    border: OutlineInputBorder(
+                      borderSide: BorderSide.none,
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    prefixIcon: Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: Icon(
+                        Icons.search,
+                        color: Color(0xff949BA5),
+                        size: 28,
+                      ),
+                    ),
+                    hintText: "Search Contacts",
+                  ),
+                ),
 
                 // Available Contacts
                 SizedBox(height: 20),
@@ -62,39 +83,267 @@ class ContactsPage extends StatelessWidget {
                 ),
 
                 // Contacts (5x)
-                SizedBox(height: 10),
-                Container(
-                  padding: EdgeInsets.all(15),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  child: Row(
+                Expanded(
+                  child: ListView(
                     children: [
-                      Image.asset(
-                        "assets/a1.png",
-                        height: 64,
-                        width: 64,
+                      SizedBox(height: 10),
+                      Container(
+                        padding: EdgeInsets.all(15),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          children: [
+                            Image.asset(
+                              "assets/a1.png",
+                              height: 64,
+                              width: 64,
+                            ),
+                            SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Jane Cooper",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Color(0xff212226),
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                Text(
+                                  "manhhachkt08@gmail.com",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
-                      SizedBox(width: 10),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "Jane Cooper",
-                            style: TextStyle(
-                              fontSize: 18,
-                              color: Color(0xff212226),
-                              fontWeight: FontWeight.w600,
+                      SizedBox(height: 10),
+                      Container(
+                        padding: EdgeInsets.all(15),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          children: [
+                            Image.asset(
+                              "assets/a1.png",
+                              height: 64,
+                              width: 64,
                             ),
-                          ),
-                          Text(
-                            "manhhachkt08@gmail.com",
-                            style: TextStyle(
-                              color: Color(0xff949BA5),
+                            SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Jane Cooper",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Color(0xff212226),
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                Text(
+                                  "manhhachkt08@gmail.com",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Container(
+                        padding: EdgeInsets.all(15),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          children: [
+                            Image.asset(
+                              "assets/a1.png",
+                              height: 64,
+                              width: 64,
+                            ),
+                            SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Jane Cooper",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Color(0xff212226),
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                Text(
+                                  "manhhachkt08@gmail.com",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Container(
+                        padding: EdgeInsets.all(15),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          children: [
+                            Image.asset(
+                              "assets/a1.png",
+                              height: 64,
+                              width: 64,
+                            ),
+                            SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Jane Cooper",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Color(0xff212226),
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                Text(
+                                  "manhhachkt08@gmail.com",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Container(
+                        padding: EdgeInsets.all(15),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          children: [
+                            Image.asset(
+                              "assets/a1.png",
+                              height: 64,
+                              width: 64,
+                            ),
+                            SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Jane Cooper",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Color(0xff212226),
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                Text(
+                                  "manhhachkt08@gmail.com",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Container(
+                        padding: EdgeInsets.all(15),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          children: [
+                            Image.asset(
+                              "assets/a1.png",
+                              height: 64,
+                              width: 64,
+                            ),
+                            SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Jane Cooper",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Color(0xff212226),
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                Text(
+                                  "manhhachkt08@gmail.com",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Container(
+                        padding: EdgeInsets.all(15),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          children: [
+                            Image.asset(
+                              "assets/a1.png",
+                              height: 64,
+                              width: 64,
+                            ),
+                            SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Jane Cooper",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Color(0xff212226),
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                Text(
+                                  "manhhachkt08@gmail.com",
+                                  style: TextStyle(
+                                    color: Color(0xff949BA5),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
