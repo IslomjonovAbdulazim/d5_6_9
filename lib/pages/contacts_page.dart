@@ -35,6 +35,31 @@ class ContactsPage extends StatelessWidget {
                 // Search
 
                 // Available Contacts
+                SizedBox(height: 20),
+                Row(
+                  children: [
+                    Text(
+                      "Available Contacts",
+                      style: TextStyle(
+                        color: Color(0xff212226),
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    Spacer(),
+                    Image.asset(
+                      "assets/sort.png",
+                      height: 24,
+                      width: 24,
+                    ),
+                    SizedBox(width: 20),
+                    Image.asset(
+                      "assets/filter.png",
+                      height: 24,
+                      width: 24,
+                    ),
+                  ],
+                ),
 
                 // Contacts (5x)
                 SizedBox(height: 10),
